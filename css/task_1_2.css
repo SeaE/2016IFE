@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	line-height: 2em;
+}
+body{background: #ccc;}
+.first span,.second span,.last span{color: #999;}
+.header{
+	float: left;
+	width: 100%;
+	height: 70px;
+	background: #000;
+	margin-bottom: 20px;
+}
+.header img{
+	float: left;
+	width: 140px;
+	height: 70px;
+	margin-left: 20px;
+}
+.header li{
+	float: right;
+	list-style-type: none;
+	margin-right: 30px;
+	line-height: 70px;
+}
+.header li a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+/*________________________________________________header结束——————————————————*/
+.content,.aside{
+	clear: both;
+	margin: 20px;	
+}
+.first,.second,.images,.last,.aside{
+	background: #fff;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.first p,.second p{
+	text-indent: 2em;
+}
+.first img,.second img{
+	width:50%;
+}
+.second ul li{
+	list-style-type: none;
+}
+.img_box{
+	padding: 10px;
+	border: 1px solid #999;
+	margin: 20px;
+	text-align: center;
+	width: 120px;	
+}
+.img_box img{
+	width: 100px;
+	height: 100px;
+}
+/*_________________________________________________images结束*/
+
+.last .list{
+	margin:20px 20px 20px 40px;
+}
+.last table{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #999;
+}
+.table_head{
+	background: #000;
+	color: #fff;
+}
+.table_foot{
+	background: #999;
+}
+/*___________________________________________________________table结束
+*/
+.aside_title{
+	padding: 10px;
+	border-left: 2px solid #999;
+}
+.aside label{
+	float: left;
+	width: 30%;
+	text-align: right;
+	cursor: pointer;
+	
+}
+span.tip{
+	margin-left: 30%;
+	text-align: left;	
+}
+
+
+
+.button{
+	clear: both;
+	width: 100%;
+	border-radius: 10px;
+	color: #fff;
+	background: blue;
+	height: 50px;
+	font-size: 20px;
+}
+/*__________________________________________aside结束*/
+.footer{
+	height: 60px;
+	text-align: center;
+	background: #000;		
+}
+.footer p{
+	color: #fff;
+	line-height: 60px;
+}

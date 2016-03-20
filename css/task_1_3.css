@@ -1,0 +1,68 @@
+/*双飞翼布局，先加载中间内容*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+.container{
+	margin: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	height: auto;
+	overflow: hidden;
+}
+.left{
+	float: left;
+	width: 200px;
+	height: 120px;
+	margin-left: -100%;
+	border:1px solid #999;
+	background: #fff;
+}
+.left img{
+	width: 80px;height: 80px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.left p{
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.main{
+	float: left;	
+	width: 100%;
+	height: auto;
+}
+.wrap{
+	margin-left: 220px;
+	margin-right: 140px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.wrap h3{
+	text-align: center;
+	font-size: 3em;
+}
+.wrap p{
+	font-size: 2em;
+	text-indent: 2em;
+}
+.right{
+	float: right;
+	width: 120px;
+	margin-left: -140px;
+	border: 1px solid #999;
+	height: auto;
+	background: #fff;
+	padding-bottom: 20px;
+}
+.right img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
