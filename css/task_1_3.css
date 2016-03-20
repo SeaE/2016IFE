@@ -4,6 +4,9 @@
 	margin: 0;
 	font-size: 12px;
 }
+body{
+	min-width:500px;
+}
 .container{
 	margin: 20px;
 	background: #eee;
@@ -30,6 +33,7 @@
 	font-size: 12px;
 	font-weight: bold;
 	margin-top: 50px;
+	margin-right:9px;
 }
 .main{
 	float: left;	
@@ -37,6 +41,7 @@
 	height: auto;
 }
 .wrap{
+	padding:10px;
 	margin-left: 220px;
 	margin-right: 140px;
 	border: 1px solid #999;
